@@ -54,6 +54,235 @@ body {
   margin: 0;
 }
 
+/* ------------------------------------------------------------
+   Reusable UI classes (kebab-case, classes only)
+------------------------------------------------------------ */
+
+.card {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(127, 127, 127, 0.1);
+  display: grid;
+  gap: 12px;
+  text-align: left;
+}
+
+.form-field {
+  display: grid;
+  gap: 6px;
+}
+
+.form-input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+}
+
+.form-select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+}
+
+.form-control-full {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.form-textarea {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+  width: 100%;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: rgba(127, 127, 127, 0.2);
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.code-block {
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(127, 127, 127, 0.15);
+  overflow: auto;
+  text-align: left;
+}
+
+.hint {
+  opacity: 0.8;
+}
+
+.text-error {
+  color: #ff6b6b;
+  margin: 0;
+}
+
+.text-success {
+  color: #51cf66;
+  margin: 0;
+}
+
+/* Topbar */
+.topbar {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+}
+.topbar-nav {
+  display: flex;
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+.topbar-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+.topbar-icon-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-user {
+  width: 20px;
+  height: 20px;
+}
+.topbar-link.router-link-active,
+.topbar-icon-link.router-link-active {
+  background: rgba(127, 127, 127, 0.15);
+}
+
+/* Home page */
+.home-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.home-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+}
+.home-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+.home-nav-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: rgba(127, 127, 127, 0.08);
+}
+.home-content {
+  padding-top: 16px;
+}
+.home-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 16px;
+}
+.home-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 8px;
+}
+.home-card {
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  border-radius: 12px;
+  padding: 16px;
+  background: rgba(127, 127, 127, 0.08);
+}
+.home-pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Entry form */
+.entry-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.entry-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+.entry-col-left {
+  display: grid;
+  gap: 12px;
+}
+.entry-col-right {
+  display: flex;
+  min-height: 100%;
+}
+.entry-description-field {
+  flex: 1;
+}
+.entry-description-textarea {
+  min-height: 320px;
+  height: 100%;
+}
+.entry-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* Login */
+.login-page {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+@media (max-width: 900px) {
+  .home-card-grid {
+    grid-template-columns: 1fr;
+  }
+  .entry-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .entry-grid2 {
+    grid-template-columns: 1fr;
+  }
+}
+
 h1,
 h2 {
   font-family: var(--heading);

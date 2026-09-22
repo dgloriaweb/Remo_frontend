@@ -1,0 +1,65 @@
+[
+    {
+    "discussion_id": 1001,
+    "entry_id": 1,
+    "user_id": 106,
+    "author_name": "Nagy Dániel",
+    "user_group_id": 3,
+    "comment": "Gyakorlás közben, mikor a hangszer a kézben van, a dupla tap óriási segítség lenne!",
+    "created_at": "2026-09-11T09:15:00Z"
+    },
+    {
+    "discussion_id": 1002,
+    "entry_id": 1,
+    "user_id": 201,
+    "author_name": "Zenelek Dev Team",
+    "user_group_id": 1,
+    "comment": "A dupla tap-re szüneteltetést beütemeztük a következő sprintre a mobil lejátszóhoz.",
+    "created_at": "2026-09-12T11:00:00Z"
+    },
+    {
+    "discussion_id": 1003,
+    "entry_id": 2,
+    "user_id": 107,
+    "author_name": "Szabó Gábor",
+    "user_group_id": 3,
+    "comment": "Nagyon bosszantó, hogy minden nap újra be kell gépelni mindent mobilról.",
+    "created_at": "2026-09-02T10:05:00Z"
+    },
+    {
+    "discussion_id": 1004,
+    "entry_id": 2,
+    "user_id": 201,
+    "author_name": "Zenelek Dev Team",
+    "user_group_id": 1,
+    "comment": "Az input type='email' javítást már feltettük stagingre, a több eszközös session-kezelést pedig módosítjuk Sanctum oldalon.",
+    "created_at": "2026-09-05T16:40:00Z"
+    },
+    {
+    "discussion_id": 1005,
+    "entry_id": 3,
+    "user_id": 202,
+    "author_name": "Oktatói Csapat",
+    "user_group_id": 2,
+    "comment": "Átnézzük a IV. fejezet kottáit. A 29-es kottát valóban elcsúsztattuk a feltöltésnél, javítjuk!",
+    "created_at": "2026-09-16T12:00:00Z"
+    },
+    {
+    "discussion_id": 1006,
+    "entry_id": 4,
+    "user_id": 108,
+    "author_name": "Horváth Éva",
+    "user_group_id": 3,
+    "comment": "Saját 'Napi gyakorlás' mappát nagyon jó lenne összerakni!",
+    "created_at": "2026-09-09T14:10:00Z"
+    },
+    {
+    "discussion_id": 1007,
+    "entry_id": 5,
+    "user_id": 203,
+    "author_name": "Dob Oktató",
+    "user_group_id": 2,
+    "comment": "Köszönjük az észrevételt! A kezdő dob kottát feltöltjük letölthető csatolmányként, és finomítunk a 3/2 magyarázatán.",
+    "created_at": "2026-09-19T08:20:00Z"
+    }
+    ]

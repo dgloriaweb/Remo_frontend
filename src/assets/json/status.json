@@ -1,0 +1,44 @@
+[
+  {
+    "status_id": 0,
+    "code": "waiting_for_approval",
+    "label": "Ellenőrzés alatt",
+    "color": "#3B82F6"
+  },
+  {
+    "status_id": 1,
+    "code": "open_for_voting",
+    "label": "Szavazásra bocsátva",
+    "color": "#10B981"
+  },
+  {
+    "status_id": 2,
+    "code": "under_review",
+    "label": "Felülvizsgálat alatt",
+    "color": "#F59E0B"
+  },
+  {
+    "status_id": 3,
+    "code": "planned",
+    "label": "Tervezve",
+    "color": "#8B5CF6"
+  },
+  {
+    "status_id": 4,
+    "code": "in_progress",
+    "label": "Fejlesztés alatt",
+    "color": "#10B981"
+  },
+  {
+    "status_id": 5,
+    "code": "merged",
+    "label": "Megvalósult / Lezárva",
+    "color": "#6B7280"
+  },
+  {
+    "status_id": 6,
+    "code": "rejected",
+    "label": "Elutasítva",
+    "color": "#EF4444"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "user_group_id": 1,
+    "code": "superuser",
+    "label": "Superuser",
+    "description": "Teljes hozzáférés (pl. fejlesztők)"
+  },
+  {
+    "user_group_id": 2,
+    "code": "admins",
+    "label": "Adminok",
+    "description": "Tartalom kezelése"
+  },
+  {
+    "user_group_id": 3,
+    "code": "members",
+    "label": "Tagok",
+    "description": "Felhasználók, akiknek van fiókja"
+  },
+  {
+    "user_group_id": 4,
+    "code": "guests",
+    "label": "Vendégek",
+    "description": "Nincs szerkesztési/szavazási jog, csak olvasás"
+  }
+]
